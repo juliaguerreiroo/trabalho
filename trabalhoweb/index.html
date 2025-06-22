@@ -1,1 +1,193 @@
-https://colorhunt.co/palette/f2efe79acbd048a6a7006a71
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="css/headerStyle.css" rel="stylesheet"/>
+    <link href="css/indexStyle.css" rel="stylesheet"/>
+    <link href="css/footerStyle.css" rel="stylesheet"/>
+    <style>
+     @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+     @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+    </style>
+    <title>Cyber Segurança</title>
+</head>
+<body>
+    <header class="montserrat-font">
+        <nav>
+            <div class="logo">
+                <img src="img/logoUPF.svg" alt="Logo da UPF" class="logo-img">
+            </div>
+            <div class="nav-links">
+                <div class="icons">
+                    <a href="#" id="dark" onclick="addDarkTheme()"><i class="fa-solid fa-moon"></i></a>
+                    <a href="#" id="light" onclick="removeDarkTheme()"><i class="fa-solid fa-sun"></i></a>
+                </div>
+                <a href="index.html">Home</a>
+                <a href="sobre.html">Sobre</a>
+                <a href="form.html">Contato</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="parte-inicial">
+            <div class="icon icon-top-left iconmuda">
+                <img src="img/shield.svg" alt="Icone Segurança">
+            </div>
+            <div class="icon icon-top-right iconmuda">
+                <img src="img/padlock.svg" alt="Icone Cadeado">
+            </div>
+            <div class="icon icon-bottom-left iconmuda">
+                <img src="img/computer.svg" alt="Icone Computador">
+            </div>
+            <div class="icon icon-bottom-right iconmuda">
+                <img src="img/search.svg" alt="Icone Pesquisa">
+            </div>
+            
+            <div class="circle-container">
+                <img src="img/circuloazul.svg" alt="Fundo azul" class="circle">
+                <h1 class="title">Cyber <br> Segurança</h1>
+                <a href="#sobre" class="btn">Saber Mais</a>
+            </div>
+        </div>
+
+
+        <div class="sobre-section" id="sobre">
+            <div class="sobre-left">
+                <div class="sobre-icon">
+                    <img src="img/star.svg" alt="Ícone estrela">
+                </div>
+                <h2 class="sobre-title">Sobre</h2>
+            </div>
+            
+            <div class="sobre-text">
+                <p>Vivemos em uma era digital em que dados pessoais, empresariais e governamentais circulam amplamente por redes e sistemas. Nesse contexto, a cibersegurança torna-se essencial para proteger informações contra acessos indevidos, ataques e vazamentos. Mais do que um aspecto técnico, ela é estratégica para evitar prejuízos, preservar a privacidade e garantir a segurança. Com ameaças cada vez mais sofisticadas, entender seus princípios e práticas é fundamental.</p>
+            </div>
+        </div>
+
+        <div class="navegar-internet">
+            <h2 class="title">Ao Navegar Na Internet</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <img src="img/padlock.svg" alt="Icone Cadeado" class="card-icon">
+                    <h3>Confira o cadeado no navegador</h3>
+                    <p>Ele indica que o site é seguro (HTTPS).</p>
+                </div>
+                <div class="card">
+                    <img src="img/wifi.svg" alt="Icone Wi-Fi" class="card-icon">
+                    <h3>Precaução com atividades</h3>
+                    <p>Evite redes Wi-Fi públicas para atividades sensíveis como transações bancárias.</p>
+                </div>
+                <div class="card">
+                    <img src="img/money.svg" alt="Icone Dinheiro" class="card-icon">
+                    <h3>Evite golpes</h3>
+                    <p>Desconfie de ofertas muito tentadoras: “Você ganhou um iPhone!” quase sempre é golpe.</p>
+                </div>
+                <div class="card">
+                    <img src="img/vpn.svg" alt="Icone VPN" class="card-icon">
+                    <h3>Use VPN</h3>
+                    <p>Instale uma VPN para maior segurança.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="email-section" id="cuidados-email">
+            <div class="email-left">
+                <h2 class="email-title">Cuidados <br> Com Email</h2>
+            </div>
+            <div class="email-right">
+                <div class="email-item">
+                    <img src="img/carta.svg" alt="Ícone de email" class="icon-email">
+                    <p>Verifique o remetente e evite clicar em links ou baixar arquivos de fontes desconhecidas.</p>
+                </div>
+                <div class="email-item">
+                    <img src="img/lista.svg" alt="Ícone de senha" class="icon-email">
+                    <p>Não forneça dados por e-mail: bancos e empresas sérias não pedem senhas por e-mail.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="senha-section" id="criacao-senhas">
+            <h2 class="senha-title">Criação de Senhas</h2>
+            <div class="senha-grid">
+                <div class="senha-card">
+                    <img src="img/cadeadoazul.svg" alt="Cadeado">
+                    <p>Use senhas longas e complexas com letras, números e símbolos, evitando dados pessoais.</p>
+                </div>
+                <div class="senha-card">
+                    <img src="img/verificado.svg" alt="Verificação em duas etapas">
+                    <p>Ative a verificação em duas etapas para exigir um segundo código além da senha e proteger sua conta.</p>
+                </div>
+                <div class="senha-card">
+                    <img src="img/flechas.svg" alt="Setas de atualização">
+                    <p>Altere as suas senhas regularmente</p>
+                </div>
+                <div class="senha-card">
+                    <img src="img/chave.svg" alt="Chave">
+                    <p>Não use a mesma senha para diferentes contas.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="explicacao-section" id="cuidados-download">
+            <h2 class="explicacao-title">Cuidado Com o Que<br>Você Baixa Ou Clica</h2>
+            <p class="explicacao-subtitle">Phishing e malware são táticas usadas para roubar seus dados ou infectar seu dispositivo.</p>
+            <div class="explicacao-grid">
+                <div class="explicacao-card">
+                    <h3>PHISHING</h3>
+                    <p>É uma técnica de ataque usada por criminosos para enganar as pessoas e levá-las a fornecer informações confidenciais, como senhas, números de cartão de crédito ou dados bancários.</p>
+                </div>
+                <div class="explicacao-card">
+                    <h3>MALWARE</h3>
+                    <p>É um software malicioso criado para danificar, invadir e roubar informações de sistemas ou dispositivos. Ele age como um vírus e infecta o sistema realizando ações maliciosas sem o conhecimento do usuário.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="uso-section" id="uso-movel">
+            <h2 class="uso-title">Uso consciente de<br>dispositivos móveis</h2>
+            
+            <ul class="uso-list">
+                <li><span class="bola"></span>Uso consciente de dispositivos móveis</li>
+                <li><span class="bola"></span>Bloqueie os seus dispositivos com senha ou biometria</li>
+                <li><span class="bola"></span>Limite o acesso a informações sensíveis</li>
+                <li><span class="bola"></span>Cuidado com mensagens de texto duvidosas</li>
+            </ul>
+        </div>
+
+        <div class="conclusao-section" id="conclusao">
+            <div class="conclusao-title-container">
+                <img src="img/star.svg" alt="Estrela preta" class="estrela esquerda estrela-preta">
+                <h2 class="conclusao-title">Conclusão</h2>
+                <img src="img/starazul.svg" alt="Estrela azul" class="estrela direita">
+            </div>
+            <p class="conclusao-text">Na era digital, segurança não é mais uma opção, é uma necessidade. Proteja seus dados como você protege sua própria identidade: com atenção, prevenção e responsabilidade.</p>
+            
+            <p class="conclusao-text">A segurança da informação depende de hábitos simples, como criar senhas fortes e ter cuidado com o que você compartilha online.</p>
+        </div>
+    </main>
+    <footer class="footer">
+        <hr/>
+        <div class="footer-left">
+            <div class="footer-icon">
+                <img src="img/star.svg" alt="Estrela" class="footer-star">
+            </div>
+            <p>Júlia Guerreiro<br>e Julia Holz</p>
+        </div>
+        
+        <div class="footer-section">
+            <h3>REDES SOCIAIS</h3>
+            <a href="mailto:computacao@upf.br">E-mail do Curso</a><br>
+            <a href="mailto:ederpazinatto@upf.br">E-mail do Coordenador</a><br>
+            <a href="https://www.instagram.com/upfcomputacao/?igsh=MTJ6YzAwaHF2MDE0dA%3D%3D#">Instagram</a>
+        </div>
+        
+        <div class="footer-section">
+            <h3>ONDE ESTAMOS</h3>
+            <a href="https://www.upf.br/"><i class="fa-solid fa-location-dot"></i>  Universidade de Passo Fundo</a><br>
+        </div>
+    </footer>
+    <script src="js/nightMode.js"></script>
+</body>
+</html>
