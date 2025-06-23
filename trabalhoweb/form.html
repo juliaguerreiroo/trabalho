@@ -8,8 +8,8 @@
     <link href="css/headerStyle.css" rel="stylesheet"/>
     <link href="css/footerStyle.css" rel="stylesheet"/>
     <style>
-     @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-     @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
     </style>
 </head>
 <body>
@@ -26,36 +26,28 @@
         </nav>
     </header>
         <main>
-            <section class="textoContato">
-                <h1>Contato</h1>
-                <p>Entre em contato para mais informações</p>
-            </section>
+            
             <section class="containerHorizontal">
                 <div class="containerPai">
                     <div class="cardEsquerda">
-                        <h3>Telefone</h3>
-                        <p>(54) 3316-8354</p>
-                        <h3>E-mail do curso</h3>
-                        <p>computacao@upf.br</p>
-                        <h3>E-mail do coordenador</h3>
-                        <p>ederpazinatto@upf.br</p>
-                        <div class="appsHorizontal">
-                            <a target="_blank" href="https://www.instagram.com/upfcomputacao?igsh=MTJ6YzAwaHF2MDE0dA=="><img class="imgInstagram" src="img/instagramImagem.png" ></a>       
-                        </div>
+                        <h1>Entre em 
+                        <br><span class="palavraAzul">contato</span>
+                        <br>conosco!</h1>
+                        <p>
+                        Ficou com alguma dúvida? Entre em contato conosco agora mesmo!
+                        </p>
                     </div>
                 </div>
 <!-- Aqui começa o container pai da direita -->
             <div class="containerPai">
                 <div class="formContainer">
                     <form action="" id="form">
-                        <fieldset>
-                            <legend>Contato</legend>
                                 <div class="form-group" >
                                     <label for="nome">Nome Completo:</label>
                                     <input type="text" name="nome" placeholder="Digite o seu nome" required autocomplete="on">
                                 </div>
                                 <div class="form-group">
-                                    <label for="Email">Email:</label>
+                                    <label for="Email">E-mail:</label>
                                     <input type="email" name="email" placeholder="Digite seu email" required>
                                 </div>
                                 <div class="form-group">
@@ -63,10 +55,9 @@
                                     <input type="number" name="number" placeholder="Digite seu número" required>
                                 </div>
                                 <div class="form-group">
-                                    <label for="user">Motivo do contato:</label>
-                                    <textarea name="mtvcontato" id="mtvcontato" required placeholder="Digite o motivo do contato"></textarea>
+                                    <label for="user">Mensagem:</label>
+                                    <textarea name="mensagem" id="mensagem" required placeholder="Digite a sua mensagem"></textarea>
                                 </div>
-                        </fieldset>
                         <button type="submit" class="form-button">Enviar</button>
                     </form> 
                 </div>
