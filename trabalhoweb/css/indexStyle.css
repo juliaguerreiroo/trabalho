@@ -525,3 +525,44 @@ body{
 .darkTheme .estrela-preta{
     filter: brightness(0) invert(1);
 }
+
+/*--------------------------------------------------------------------------------------*/
+
+
+.large-font .title {
+  font-size: 80px;
+}
+
+.large-font .sobre-title,
+.large-font .email-title,
+.large-font .senha-title,
+.large-font .explicacao-title,
+.large-font .uso-title,
+.large-font .conclusao-title {
+  font-size: 72px;
+}
+
+.large-font .sobre-text,
+.large-font .email-item,
+.large-font .explicacao-subtitle,
+.large-font .explicacao-card p,
+.large-font .uso-list,
+.large-font .conclusao-text {
+  font-size: 22px;
+}
+
+.large-font .btn {
+  font-size: 22px;
+}
+
+.large-font .card h3,
+.large-font .card p {
+  font-size: 20px;
+}
+
+.large-font .senha-card p {
+  font-size: 20px;
+}
+
+
+

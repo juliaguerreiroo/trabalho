@@ -45,6 +45,22 @@ nav a {
   width: 80px;
 }
 
+.acessibilidade{
+  background-color: #40bfff;
+  color: black;
+  font-weight: 600;
+  padding: 12px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  border: none;
+}
+
+.acessibilidade:hover {
+  background-color: #93d8fd;
+}
+
 #light {
   display: none;
 }

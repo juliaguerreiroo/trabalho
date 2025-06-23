@@ -1,3 +1,72 @@
 body{
     background-color: #f2efe7;
 }
+
+.sobre-section {
+  padding: 100px 40px;
+  text-align: center;
+}
+
+.conclusao-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 60px;
+}
+
+.conclusao-title {
+  font-family: "Playfair Display", serif;
+  font-size: 64px;
+  font-weight: 600;
+  color: black;
+}
+
+.estrela {
+  width: 40px;
+  height: 40px;
+}
+
+.perfil {
+  max-width: 900px;
+  margin: 0 auto 60px auto;
+  text-align: justify;
+  flex: 1;
+}
+
+.espaco{
+    height: 150px;
+}
+
+.perfil h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.perfil p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: #444;
+  line-height: 1.7;
+}
+.perfil-box {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto 60px;
+  flex-wrap: wrap;
+}
+
+.perfil-img {
+  width: 350px;
+  object-fit: cover;
+}
+
+
+
+
+
+
