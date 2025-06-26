@@ -74,7 +74,8 @@ body{
   padding: 12px;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-  animation: flutuar 3s ease-in-out infinite;
+  animation: flutuar 3s ease-in-out infinite; 
+  /*aplica a animação com movimento suave de entrada e saída e se repete infinitamente.*/
 }
 
 .icon-top-left {
@@ -120,13 +121,13 @@ body{
 
 @keyframes flutuar {
   0% {
-    transform: translateY(0px);
+    transform: translateY(0px); /* Posição inicial */
   }
   50% {
-    transform: translateY(-10px);
+    transform: translateY(-10px); /* Move 10px para cima no meio da animação */
   }
   100% {
-    transform: translateY(0px);
+    transform: translateY(0px); /* Volta para a posição original no final */
   }
 }
 

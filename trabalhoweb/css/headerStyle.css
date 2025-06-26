@@ -45,20 +45,9 @@ nav a {
   width: 80px;
 }
 
-.acessibilidade{
-  background-color: #40bfff;
-  color: black;
-  font-weight: 600;
-  padding: 12px 30px;
-  border-radius: 30px;
-  text-decoration: none;
-  font-size: 14px;
-  font-family: 'Montserrat', sans-serif;
-  border: none;
-}
-
-.acessibilidade:hover {
-  background-color: #93d8fd;
+.acessibilidade {
+  width: 25px;
+  cursor: pointer;
 }
 
 #light {
@@ -66,7 +55,7 @@ nav a {
 }
 
 .darkTheme {
-  background-color: #000000;
+  background-color: #2c2323;
   color: white;
 }
 
@@ -75,5 +64,10 @@ nav a {
 }
 
 .darkTheme .logo-img {
+  /* Inverte a cor da imagem para preta */
+  filter: brightness(0) invert(1);  
+}
+
+.darkTheme .acessibilidade {
   filter: brightness(0) invert(1); 
 }
